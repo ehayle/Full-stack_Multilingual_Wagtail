@@ -72,7 +72,6 @@ INSTALLED_APPS = [
     'django_comments_xtd',
     'django_comments',
     'wagtailstreamforms',
-    'captcha',
     'coverage',
     'dbbackup',
 ]
@@ -191,6 +190,17 @@ MEDIA_URL = '/media/'
 
 
 # Wagtail settings
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'wtf_database',
+        'USER': 'wtf_database',
+        'PASSWORD': '123',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
+    }
+}
 
 WAGTAIL_SITE_NAME = "pet"
 
