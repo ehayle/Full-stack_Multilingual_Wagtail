@@ -191,22 +191,11 @@ MEDIA_URL = '/media/'
 
 # Wagtail settings
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'wtf_database',
-        'USER': 'wtf_database',
-        'PASSWORD': '123',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
-    }
-}
-
 WAGTAIL_SITE_NAME = "pet"
 
 # Base URL to use when referring to full URLs within the Wagtail admin backend -
 # e.g. in notification emails. Don't include '/admin' or a trailing slash
-BASE_URL = 'http://PythonEatsTail.com'
+BASE_URL = 'http://example.com'
 
 # custom user model
 
