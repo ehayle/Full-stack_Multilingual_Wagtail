@@ -72,8 +72,10 @@ INSTALLED_APPS = [
     'django_comments_xtd',
     'django_comments',
     'wagtailstreamforms',
+    'captcha',
     'coverage',
     'dbbackup',
+    
 ]
 
 MIDDLEWARE = [
